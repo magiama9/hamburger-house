@@ -1,0 +1,22 @@
+{
+  "name": "sturdy-rotary-phone",
+  "version": "1.0.0",
+  "description": "Homework for Unit 13 - MVC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magiama9/sturdy-rotary-phone.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magiama9/sturdy-rotary-phone/issues"
+  },
+  "homepage": "https://github.com/magiama9/sturdy-rotary-phone#readme",
+  "dependencies": {
+    "sequelize": "^5.21.4"
+  }
+}
