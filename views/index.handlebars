@@ -1,14 +1,17 @@
 <div class="container">
-  <div class="row">
-    <div class="col-2">
-      <!-- UnEaten Side -->
-      <ul class="list-group">
-        {{#each uneaten}}
-        <a href="#" id={{this.dataValues.id}} class="list-group-item list-group-item-action">{{this.dataValues.name}}</a>
-        {{/each}}
-      </ul>
+  <form action="/burgers" method="POST">
+    <div class="form-row">
+      <div class="col-2"></div>
+      <div class="col">
+        <input type="text" name="burger" class="form-control" placeholder="Add a Burger">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <div class="col-2"></div>
     </div>
-    <div class="col-8">
+
+  </form>
+  <div class="row">
+    <div class="col-12">
       <div class="burger">
         <div class="line line-1">
           <div></div>
@@ -28,12 +31,18 @@
       </div>
       <div class="underline"></div>
     </div>
+  </div>
+  <div class="row">
+    <div class="col-2">
+      <!-- UnEaten Side -->
+      <ul class="list-group" id="uneaten">
+      </ul>
+    </div>
+    <div class="col-8"></div>
+
     <div class="col-2">
       <!-- Devoured side -->
-      <ul class="list-group">
-        {{#each eaten}}
-        <a href="#" id={{this.dataValues.id}} class="list-group-item list-group-item-action">{{this.dataValues.name}}</a>
-        {{/each}}
+      <ul class="list-group" id="eaten">
       </ul>
     </div>
   </div>

@@ -5,7 +5,12 @@ html,
 body {
   padding: 0px;
   margin: 0px;
-  background-color: #fff;
+  background-color: #999e96;
+}
+
+form {
+  margin-bottom: 25px;
+  transform:translate(0%, -125%)
 }
 
 .container {
@@ -23,7 +28,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%);
 }
 
 .line {
