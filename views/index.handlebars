@@ -1,11 +1,14 @@
 <div class="container">
+  <row>
+    <h1 class="text-center">Sam's Tasty Burger Joint</h1>
+  </row>
   <form action="/burgers" method="POST">
     <div class="form-row">
       <div class="col-2"></div>
       <div class="col">
         <input type="text" name="burger" class="form-control" placeholder="Add a Burger">
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary">NOM!</button>
       <div class="col-2"></div>
     </div>
 
@@ -33,15 +36,19 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-2">
+    <div class="col-3">
       <!-- UnEaten Side -->
+      <h3>Uneaten Burgers</h3>
+      <h4>Click a burger to eat it!</h4>
       <ul class="list-group" id="uneaten">
       </ul>
     </div>
-    <div class="col-8"></div>
+    <div class="col-6"></div>
 
-    <div class="col-2">
+    <div class="col-3">
       <!-- Devoured side -->
+      <h3>Eaten Burgers</h3>
+      <h4>Click a burger to eat it!</h4>
       <ul class="list-group" id="eaten">
       </ul>
     </div>

@@ -8,11 +8,14 @@ body {
   background-color: #999e96;
 }
 
-form {
+h1 {
   margin-bottom: 25px;
-  transform:translate(0%, -125%)
+  transform: translate(0%, -125%);
 }
-
+form {
+  transform: translate(0%, -125%);
+  margin-bottom: 25px;
+}
 .container {
   width: 100vw;
   height: 500px;
