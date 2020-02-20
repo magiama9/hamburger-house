@@ -4,7 +4,7 @@
       <!-- UnEaten Side -->
       <ul class="list-group">
         {{#each uneaten}}
-        <a href="#" class="list-group-item list-group-item-action">{{this.dataValues.name}}</a>
+        <a href="#" id={{this.dataValues.id}} class="list-group-item list-group-item-action">{{this.dataValues.name}}</a>
         {{/each}}
       </ul>
     </div>
@@ -32,7 +32,7 @@
       <!-- Devoured side -->
       <ul class="list-group">
         {{#each eaten}}
-        <a href="#" class="list-group-item list-group-item-action">{{this.dataValues.name}}</a>
+        <a href="#" id={{this.dataValues.id}} class="list-group-item list-group-item-action">{{this.dataValues.name}}</a>
         {{/each}}
       </ul>
     </div>
