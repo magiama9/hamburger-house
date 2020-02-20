@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="row">
+    <div class="col-2">
+      <!-- UnEaten Side -->
+      <ul class="list-group">
+        {{#each uneaten}}
+        <a href="#" class="list-group-item list-group-item-action">{{this.dataValues.name}}</a>
+        {{/each}}
+      </ul>
+    </div>
+    <div class="col-8">
+      <div class="burger">
+        <div class="line line-1">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+        <div class="line line-4"></div>
+        <div class="line line-5"></div>
+      </div>
+      <div class="underline"></div>
+    </div>
+    <div class="col-2">
+      <!-- Devoured side -->
+      <ul class="list-group">
+        {{#each eaten}}
+        <a href="#" class="list-group-item list-group-item-action">{{this.dataValues.name}}</a>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</div>
