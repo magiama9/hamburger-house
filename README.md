@@ -1,5 +1,4 @@
-# sturdy-rotary-phone
-Homework for Unit 13 - MVC
+# hamburger-house
 
 App is deployed on [Heroku](https://tasty-burger-house.herokuapp.com/#)
 
